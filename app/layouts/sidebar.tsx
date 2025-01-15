@@ -2,9 +2,9 @@ import { Form, Link, Outlet } from "react-router";
 import { getContacts } from "../data";
 import type { Route } from "./+types/sidebar";
 
-export async function clientLoader() {
-  const contacts = await getContacts();
-  return { contacts };
+export async function loader() {
+    const contacts = await getContacts();
+    return { contacts };
 }
 
 export default function SidebarLayout({
