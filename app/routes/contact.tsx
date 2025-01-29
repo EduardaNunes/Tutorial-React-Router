@@ -2,7 +2,7 @@ import { Form, useFetcher } from "react-router";
 
 import type { ContactRecord } from "../data";
 
-import { getContact, updateContact } from "../data";
+import { getContact, updateContact } from "../data2";
 import type { Route } from "./+types/contact";
 
 export async function action({

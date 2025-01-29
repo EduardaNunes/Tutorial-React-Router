@@ -1,5 +1,5 @@
 import { Form, Link, NavLink, Outlet, useNavigation, useSubmit,} from "react-router";
-import { getContacts } from "../data";
+import { getContacts } from "../data2";
 import type { Route } from "./+types/sidebar";
 import { useEffect } from "react";
 
